@@ -1,4 +1,5 @@
 <?php
+session_start();
 include_once __DIR__ . "/data.php";
 if (isset($_GET["password-length"])) {
   $length = $_GET['password-length'];
@@ -7,4 +8,6 @@ if (isset($_GET["password-length"])) {
     $random_number = rand(0, (count($user_array) - 1));
     $password = $password . $user_array[$random_number];
   }
+  $_SESSION['password'] = $password;
+  header("Location: password.php");
 }

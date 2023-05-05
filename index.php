@@ -23,7 +23,7 @@ include_once __DIR__ . "/partials/data.php";
       <input type="number" name="password-length" id="password-length">
       <button type="submit" class="btn btn-success">Genera</button>
     </form>
-    <h3>La tua password: <?php echo $password ?></h3>
+
   </div>
 </body>
 
