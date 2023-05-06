@@ -1,0 +1,21 @@
+body {
+  background-color: #001732;
+  color: white;
+  padding: 2rem;
+}
+
+h2 {
+  color: #808b99;
+}
+
+.wrapper {
+  border: 1px solid green;
+  padding: 2rem;
+}
+
+button,
+input {
+  border: none;
+  background-color: white;
+  margin-top: 1rem;
+}
